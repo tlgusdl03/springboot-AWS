@@ -28,8 +28,4 @@ public class PostsApiController {
         return postsService.findById(id);
     }
 
-//    @GetMapping("/posts/save")
-//    public String postsSave(){
-//        return "posts-save";
-//    }
 }
