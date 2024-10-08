@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public enum Role {
 
+    // Role 기반 제어 확인
     GUEST("ROLE_GUEST", "손님"),
     USER("ROLE_USER", "일반 사용자");
 
